@@ -65,6 +65,9 @@
         <div class="cta d-none d-md-flex align-items-center gap-2">
           <a href="#about" class="scrollto">Connexion</a>
           <a href="#about" class="scrollto">Inscription</a>
+          <a href="{{ route('private.admintableaudebord') }}" class="scrollto">Mon compte A</a>
+          <a href="{{ route('private.promoteurtableaudebord') }}" class="scrollto">Mon compte P</a>
+          <a href="{{ route('private.abonnetableaudebord') }}" class="scrollto">Mon compte Ab</a>
         </div>
       </div>
     </section>
