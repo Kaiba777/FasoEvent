@@ -18,4 +18,8 @@ class AuthController extends Controller
     public function incriptionAbonne(){
         return view('public.auth.inscription-abonne');
     }
+
+    public function connexion(){
+        return view('public.auth.connexion');
+    }
 }

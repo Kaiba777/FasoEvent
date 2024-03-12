@@ -31,5 +31,6 @@ Route::get('/abonne-tableau-de-bord', [AbonneTableaudebordController::class, 'ab
 Route::get('/inscription-option', [AuthController::class, 'incriptionOption'])->name('public.inscription-option');
 Route::get('/inscription-promoteur', [AuthController::class, 'incriptionPromoteur'])->name('public.inscription-promoteur');
 Route::get('/inscription-abonne', [AuthController::class, 'incriptionAbonne'])->name('public.inscription-abonne');
+Route::get('/connexion', [AuthController::class, 'connexion'])->name('public.connexion');
 
 
