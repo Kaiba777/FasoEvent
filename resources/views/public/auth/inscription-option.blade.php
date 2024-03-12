@@ -14,11 +14,11 @@
           <h6 class="font-weight-light">Veuillez choisir une option d'inscription</h6>
           <form class="pt-3">
             <div class="mt-3">
-              <a class="btn btn-block btn-primary w-100 text-white btn-lg font-weight-medium auth-form-btn" href="../../index.html">Incription Promoteur</a>
+              <a class="btn btn-block btn-primary w-100 text-white btn-lg font-weight-medium auth-form-btn" href="{{ route('public.inscription-promoteur') }}">Incription Promoteur</a>
             </div>
 
             <div class="mt-3">
-                <a class="btn btn-block btn-primary w-100 text-white btn-lg font-weight-medium auth-form-btn" href="../../index.html">Incription Abonné</a>
+                <a class="btn btn-block btn-primary w-100 text-white btn-lg font-weight-medium auth-form-btn" href="{{ route('public.inscription-abonne') }}">Incription Abonné</a>
             </div>
 
               <div class="mt-3">
