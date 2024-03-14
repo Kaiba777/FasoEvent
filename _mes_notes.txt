@@ -1,0 +1,13 @@
+-------------------- ------ Mise d'un site LARAVEL en local -------------------------
+
+1-Créer un point d'accès avec mon téléphone
+
+2-Connecter mon PC avec mon téléphone(Création d'un réseau)
+
+3-Chercher l'adresse ip de mon PC:
+-windows : ipconfig
+-Linux : ifconfig
+-Mac : ipconfig getifaddr en0
+
+4-Ouvrir votre APP LARAVEL et taper la commande suivante :
+php artisan serve --host=0.0.0.0 --port=8000
