@@ -30,6 +30,7 @@ Route::get('/abonne-tableau-de-bord', [AbonneTableaudebordController::class, 'ab
 // Auth routes
 Route::get('/inscription-option', [AuthController::class, 'incriptionOption'])->name('public.inscription-option');
 Route::get('/inscription-promoteur', [AuthController::class, 'incriptionPromoteur'])->name('public.inscription-promoteur');
+Route::post('/inscription-promoteur-action', [AuthController::class, 'incriptionPromoteurAction'])->name('public.inscription-promoteur-action');
 Route::get('/inscription-abonne', [AuthController::class, 'incriptionAbonne'])->name('public.inscription-abonne');
 Route::get('/connexion', [AuthController::class, 'connexion'])->name('public.connexion');
 
